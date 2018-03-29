@@ -1,0 +1,5 @@
+C:\Performance Testing\Projects\CodedUIProjects\CFSTests\CFSTests\bin\Debug\CFSTests.dll
+C:\Performance Testing\Projects\CodedUIProjects\CFSTests\CFSTests\bin\Debug\CFSTests.pdb
+C:\Performance Testing\Projects\CodedUIProjects\CFSTests\CFSTests\obj\Debug\CFSTests.csprojResolveAssemblyReference.cache
+C:\Performance Testing\Projects\CodedUIProjects\CFSTests\CFSTests\obj\Debug\CFSTests.dll
+C:\Performance Testing\Projects\CodedUIProjects\CFSTests\CFSTests\obj\Debug\CFSTests.pdb
