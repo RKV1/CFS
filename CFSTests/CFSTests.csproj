@@ -64,7 +64,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="data.csv" />
-    <None Include="Example 3.2 file.fnm" />
+    <EmbeddedResource Include="Example 3.2 file.fnm">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
     <None Include="UIMap.uitest" />
   </ItemGroup>
   <Choose>

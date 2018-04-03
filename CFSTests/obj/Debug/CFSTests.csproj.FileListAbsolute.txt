@@ -3,3 +3,4 @@ C:\Performance Testing\Projects\CodedUIProjects\CFSTests\CFSTests\bin\Debug\CFST
 C:\Performance Testing\Projects\CodedUIProjects\CFSTests\CFSTests\obj\Debug\CFSTests.csprojResolveAssemblyReference.cache
 C:\Performance Testing\Projects\CodedUIProjects\CFSTests\CFSTests\obj\Debug\CFSTests.dll
 C:\Performance Testing\Projects\CodedUIProjects\CFSTests\CFSTests\obj\Debug\CFSTests.pdb
+C:\Performance Testing\Projects\CodedUIProjects\CFSTests\CFSTests\bin\Debug\Example 3.2 file.fnm

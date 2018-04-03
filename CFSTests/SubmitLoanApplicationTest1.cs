@@ -23,14 +23,15 @@ namespace CFSTests
 		{
 		}
 
-		[TestMethod]
+		[DeploymentItem("Example 3.2 file.fnm"), TestMethod]
 		//[DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV", "|DataDirectory|\\data.csv", "data#csv", DataAccessMethod.Sequential), DeploymentItem("data.csv"), TestMethod]
 		public void SubmitLoanApplicationTestMethod1()
 		{
-
+			
 			int syncTime = 20000;
 			// To generate code for this test, select "Generate Code for Coded UI Test" from the shortcut menu and select one of the menu items.
 			this.UIMap.Open_Browser_And_Navigate();
+			this.UIMap.UIHomeCivicClientPortaWindow.UIHomeCivicClientPortaDocument.WaitForControlReady(syncTime);
 			if (this.UIMap.UIHomeCivicClientPortaWindow.UIHomeCivicClientPortaDocument.UIUsernameEdit.WaitForControlExist(syncTime))
 			{
 				//this.UIMap.Enter_UsernameParams.UIUsernameEditText = TestContext.DataRow["username"].ToString();
@@ -67,6 +68,7 @@ namespace CFSTests
 			}
 
 			this.UIMap.UIHomeCivicClientPortaWindow.UIHomeCivicClientPortaDocument1.WaitForControlReady(syncTime);
+			this.UIMap.UIHomeCivicClientPortaWindow.UIHomeCivicClientPortaDocument1.UIHiCIVICButton.WaitForControlExist(syncTime);
 			this.UIMap.Verify_Whether_Login_Name_Is_Displayed_Or_Not();
 			Console.WriteLine("Verified whether username is displayed or not");
 			if (this.UIMap.UIHomeCivicClientPortaWindow.UIHomeCivicClientPortaDocument1.UINavbartwoPane.UISUBMITHyperlink.WaitForControlExist(syncTime))
